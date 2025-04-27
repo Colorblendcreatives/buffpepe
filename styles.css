@@ -234,7 +234,7 @@
         .shape {
             position: absolute;
             border-radius: 50%;
-            background: var(--accent-yellow);
+            background: #eea460;
             opacity: 0.2;
         }
         
@@ -250,7 +250,7 @@
             height: 200px;
             bottom: -100px;
             right: 10%;
-            background: var(--accent-yellow);
+            background: #eea460;
         }
         
         .shape-3 {
@@ -304,7 +304,7 @@
                 align-items: center;
                 margin: 0 auto 30px;
                 position: relative;
-                background: linear-gradient(45deg, var(--pepe-green), var(--accent-yellow), var(--pepe-light-green), var(--pepe-dark-green));
+                background: linear-gradient(45deg, var(--pepe-green), var(--darker), var(--pepe-light-green), var(--pepe-dark-green));
                 background-size: 300% 300%;
                 animation: gradientBorder 3s ease infinite;
                 padding: 5px; /* This creates space for the border */
@@ -430,7 +430,7 @@
             width: 20px;
             height: 20px;
             border-radius: 50%;
-            background: var(--accent-yellow);
+            background: var(--pepe-dark-green);
             position: absolute;
             top: 15px;
             left: 50%;
@@ -517,7 +517,7 @@
             display: inline-block;
             width: 50px;
             height: 50px;
-            background: var(--accent-yellow);
+            background: var(--pepe-green);
             color: white;
             border-radius: 50%;
             font-size: 24px;
@@ -624,7 +624,7 @@
         .accordion-button {
             background-color: white;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-            border-radius: 10px !important;
+            border-radius: 10   px !important;
             padding: 20px 25px;
             font-weight: 600;
             color: var(--text-dark);
@@ -639,7 +639,7 @@
         
         .accordion-button:focus {
             box-shadow: none;
-            border-color: var(--pepe-light-green);
+            border-color: var(--pepe-green);
         }
         
         .accordion-button::after {
@@ -700,7 +700,7 @@
         
         .community-card:hover .community-icon {
             transform: scale(1.1);
-            color: var(--accent-yellow);
+            color: var(--pepe-light-green);
         }
         
         /* Footer */
@@ -822,7 +822,7 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: var(--accent-yellow);
+            background: var(--pepe-dark-green);
             color: white;
             box-shadow: 0 5px 20px rgba(80, 200, 120, 0.4);
             font-size: 24px;
